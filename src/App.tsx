@@ -117,25 +117,6 @@ export default function Home() {
             ))}
           </div>
         </AnimatedSection>
-
-        <AnimatedSection id="contact">
-          <motion.h2 variants={fadeInUp} className="text-4xl font-bold mb-8">Contact</motion.h2>
-          <motion.form variants={fadeInUp} className="max-w-md mx-auto">
-            <div className="mb-4">
-              <label htmlFor="name" className="block mb-2">Name</label>
-              <input type="text" id="name" name="name" className="w-full p-2 border border-gray-700 rounded bg-transparent" />
-            </div>
-            <div className="mb-4">
-              <label htmlFor="email" className="block mb-2">Email</label>
-              <input type="email" id="email" name="email" className="w-full p-2 border border-gray-700 rounded bg-transparent" />
-            </div>
-            <div className="mb-4">
-              <label htmlFor="message" className="block mb-2">Message</label>
-              <textarea id="message" name="message" rows={4} className="w-full p-2 border border-gray-700 rounded bg-transparent"></textarea>
-            </div>
-            <button type="submit" className="dark:bg-white dark:text-black duration-300 bg-black text-white px-4 py-2 font-semibold rounded hover:hover:bg-gray-200 dark:hover:bg-gray-200">Send Message</button>
-          </motion.form>
-        </AnimatedSection>
       </main>
     </div>
   )
